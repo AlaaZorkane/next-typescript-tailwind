@@ -1,7 +1,7 @@
 import Hello from "@/components/Hello";
-import { FC } from "react";
+import React, { FC } from "react";
 
-const IndexPage: FC = () => (
+const IndexPage: FC<void> = () => (
   <div className="flex h-screen">
     <Hello who="world" />
   </div>
