@@ -11,13 +11,18 @@ Clone this repo in a folder of your choice, `cd` to the folder and npm install:
 git clone https://github.com/AlaaZorkane/next-typescript-tailwind.git MyProjectName
 cd MyProjectName
 npm install # or yarn
+npm run dev
 ```
 
-`OPTIONAL:` Change remote repo
+`OPTIONAL:` Change git repo
 
 ```bash
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git push -u origin master
+rm -rf .git
+git init
+git add .
+git commit -m "Init 🎉"
+git remote add origin
+git push origin master
 ```
 
 ## What's inside?
@@ -37,7 +42,7 @@ git push -u origin master
 
 ## Extra candy 🍬
 
-- Alias is already setup to match your baseUrl,
+- Alias is already setup to match your `baseUrl`,
   please don't `"../../../../components/hello"`, it's ugly. Use `"@/components/hello"` instead!
 - Shared interfaces go to the folder `interfaces` and read [this](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#types-or-interfaces) about whether to use types or interfaces
 - Make sure to have these vs code extensions installed for maximum developer comfort:
@@ -46,3 +51,7 @@ git push -u origin master
   - [Tailwind exntesion](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
   - [Stylelint extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - No, don't use emacs.
+
+## Notes and issues
+
+- There is bug with the eslint's `react/prop-types` that's why I had to disable it, more discussion [here](https://github.com/yannickcr/eslint-plugin-react/issues/2353).
