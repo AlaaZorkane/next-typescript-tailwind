@@ -7,6 +7,8 @@ for you to start coding instead of spending time searching on how to setup this 
 
 ## How to use it?
 
+### Manually
+
 Clone this repo in a folder of your choice, `cd` to the folder and npm install:
 
 ```bash
@@ -23,9 +25,15 @@ rm -rf .git
 git init
 git add .
 git commit -m "Init 🎉"
-git remote add origin
+git remote add origin [LINK]
 git push origin master
 ```
+
+### Using Github (recommended)
+
+There is a `Use this template` button beside the `clone` button.
+
+Just click on it and github will do the rest, clone the new repo in your computer, and you're good to go 🚀
 
 ## What's inside?
 
