@@ -56,6 +56,7 @@ Just click on it and github will do the rest, clone the new repo in your compute
 
 ## Extra candy 🍬
 
+- Fast refresh!
 - Alias is already setup to match your `baseUrl`,
   please don't `"../../../../components/hello"`, it's ugly. Use `"@/components/hello"` instead!
 - Shared interfaces go to the folder `interfaces` and read [this](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#types-or-interfaces) about whether to use types or interfaces
