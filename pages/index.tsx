@@ -1,10 +1,12 @@
-import React, { FC } from "react";
-import Hello from "@/components/Hello";
+import React from "react";
+import { Hello } from "@/components/Hello";
 
-const IndexPage: FC<void> = () => (
-  <div className="flex h-screen">
-    <Hello who="world" />
-  </div>
-);
+function IndexPage(): JSX.Element {
+  return (
+    <div className="flex h-screen">
+      <Hello who="world" />
+    </div>
+  );
+}
 
 export default IndexPage;

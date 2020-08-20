@@ -69,4 +69,20 @@ Just click on it and github will do the rest, clone the new repo in your compute
 
 ## Notes and issues
 
-- There is bug with the eslint's `react/prop-types` that's why I had to disable it, more discussion [here](https://github.com/yannickcr/eslint-plugin-react/issues/2353).
+- None 🎉
+
+## Maintainers
+
+Alaa Zorkane - https://twitter.com/AlaaZork
+
+## Changelog
+
+### 1.0.0
+
+- Initial release 🎉
+
+### 2.0.0
+
+- Changed arrow functions to normal functions
+- Added Husky and precommit staged
+- New linting and formatting scripts
