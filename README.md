@@ -77,12 +77,19 @@ Alaa Zorkane - https://twitter.com/AlaaZork
 
 ## Changelog
 
-### 1.0.0
+### 2.1.0
 
-- Initial release 🎉
+- Dependencies update
+- Prettier is now warning level (was error)
+- Tailwind future opt-in
 
 ### 2.0.0
 
 - Changed arrow functions to normal functions
 - Added Husky and precommit staged
 - New linting and formatting scripts
+
+### 1.0.0
+
+- Initial release 🎉
+
